@@ -13,6 +13,8 @@ title: Sapio Sexy Night - Intro to Quantum Physics
 # Sapio Sexy Night
 ## Intro to Quantum Physics
 
+<img src="/assets/cat.jpg" class="w-96 mx-auto" />
+
 ---
 layout: cover
 background: https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=1920
@@ -38,39 +40,28 @@ background: https://images.unsplash.com/photo-1457364559154-aa2644600ebb?auto=fo
 Late 1600s
 
 ---
-layout: two-cols
+layout: cover
+background: "/1_ED2GtakXGSonxvgeK_txGw.png"
+class: "text-white"
 ---
 
 # Fields & Waves
-Mid-1800s
+(Mid-1800s)
 
-::right::
-
-<div class="w-full h-full flex items-center justify-center">
-  <img src="https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/hydrogen-wave.png" class="max-h-100 object-contain" />
+<div class="mt-10 flex justify-center">
+  <img src="/assets/maxwell.png" class="w-3/4 h-auto" />
 </div>
 
 <style>
-.slidev-layout {
-  background: radial-gradient(circle at center, #000428, #004e92);
-  color: white;
-}
-
-h1 {
-  margin-top: 40%;
-  margin-left: 1em;
-  font-size: 3em !important;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+h1, p {
+  color: black;
+  margin-top: 2rem;
 }
 </style>
 
 ---
 layout: cover
-background: https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1920
+background: "/assets/spacetime.jpg"
 ---
 
 # Shattering Space and Time
@@ -94,7 +85,7 @@ Supermarket Scanners
 
 ---
 layout: cover
-background: https://images.unsplash.com/photo-1618587275200-0827c99c7495?auto=format&fit=crop&w=1920
+background: "/assets/flash-memory-1306886_640.jpg"
 ---
 
 # Flash Memory
@@ -106,11 +97,23 @@ background: https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=fo
 ---
 
 # Quantum Computers
-Computing with Superposition
+Superposition & Parallel Computing
+
+---
+layout: center
+class: text-center
+---
+
+# Bridging the Gap
+## From Daily Technology to Quantum Fundamentals
+
+- How quantum effects in everyday devices lead to deeper understanding
+- The connection between practical applications and theoretical concepts
+- Why quantum mechanics matters beyond technology
 
 ---
 layout: cover
-background: https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920
+background: "/assets/AdobeStock_537881222.webp"
 ---
 
 # Particle Entanglement
@@ -118,11 +121,34 @@ Spooky Action at a Distance
 
 ---
 layout: cover
-background: https://images.unsplash.com/photo-1607989740071-1f258aa6d7c3?auto=format&fit=crop&w=1920
+background: https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920
 ---
 
 # Wave-Particle Duality
 The Double-Slit Experiment
+
+---
+class: "bg-black text-white"
+---
+
+# Hydrogen Wave Functions
+
+## Probability Density Plots
+
+<div class="mt-4 flex justify-center">
+  <img src="/assets/Hydrogen_Density_Plots.png" class="w-3/4 h-auto max-h-[60vh]" />
+</div>
+
+<style>
+.slidev-layout {
+  background-color: black;
+  color: white;
+}
+
+h1, h2 {
+  color: white !important;
+}
+</style>
 
 ---
 layout: cover
