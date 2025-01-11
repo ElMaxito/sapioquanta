@@ -3,11 +3,15 @@
   "scripts": {
     "dev": "slidev",
     "build": "slidev build",
-    "export": "slidev export"
+    "export": "slidev export",
+    "deploy": "slidev build --base /sapioquanta/ && gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "latest",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
