@@ -46,9 +46,9 @@ class: "text-white"
 ---
 
 # Fields & Waves
-(Mid-1800s)
+<h2 class="text-white">(Mid-1800s)</h2>
 
-<div class="mt-10 flex justify-center">
+<div class="mt-4 flex justify-center">
   <img src="/assets/maxwell.png" class="w-3/4 h-auto" />
 </div>
 
